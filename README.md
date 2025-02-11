@@ -5,7 +5,11 @@
 提交任务时使用的 Aptos 钱包地址:
 
 0x0ea8d82fd682bfe97c8b236e6711ff81854c6504b640d24621328f3a04c7105a
+
+
 运行结果
+可以 npx aptos-workspace test，但是mocha执行会出现以下错误
+
 Exception during run: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts" for /Users/punkcan/Documents/GitHub/Aptos-Workspace/tests/my-first-test.ts
 at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:176:9)
 at defaultGetFormat (node:internal/modules/esm/get_format:219:36)
