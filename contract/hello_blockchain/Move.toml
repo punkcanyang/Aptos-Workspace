@@ -3,7 +3,7 @@ name = "HelloBlockchain"
 version = "0.0.0"
 
 [addresses]
-hello_blockchain = "_"
+hello_blockchain = "0x0ea8d82fd682bfe97c8b236e6711ff81854c6504b640d24621328f3a04c7105a"
 
 [dependencies]
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-framework", rev = "mainnet" }
